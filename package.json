@@ -1,0 +1,18 @@
+{
+  "name": "nyadashboard",
+  "version": "0.0.1",
+  "description": "A custom dashboard for FRC team 9072",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Team 9072",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.1.3"
+  },
+  "dependencies": {
+    "wpilib-nt-client": "^1.7.2"
+  }
+}
