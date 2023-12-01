@@ -8,7 +8,7 @@
     "start": "electron ."
   },
   "author": "Team 9072",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "electron": "^27.1.3"
   },
