@@ -2,9 +2,9 @@ const root = document.getElementById('root')
 
 const App = () => {
   return (
-    <div>
+    `<div>
       <h1>Hello, Electron!</h1>
-    </div>
+    </div>`
   )
 }
 console.log("help")
