@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "WIP dashboard for 9073",
   "main": ".webpack/main",
+  "type": "module",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -34,12 +35,15 @@
     "node-loader": "^2.0.0",
     "style-loader": "^3.3.4",
     "ts-loader": "^9.5.1",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "@msgpack/msgpack": "^3.0.0-beta2",
     "electron-squirrel-startup": "^1.0.0",
+    "isomorphic-ws": "^5.0.0",
     "ntcore-ts-client": "^0.2.2",
-    "wpilib-nt-client": "^1.7.2"
+    "wpilib-nt-client": "^1.7.2",
+    "zod": "^3.22.4"
   }
 }
